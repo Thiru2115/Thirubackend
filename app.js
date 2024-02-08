@@ -4,7 +4,7 @@ const cors = require("cors");
 const userRouter = require("./router/userRoutes");
 app.use(express.json());
 app.use(cors({
-  origin: 'https://frontendzomoto.vercel.app/' 
+  origin: 'https://frontendzomoto-nqv4d9oq7-thirumoothis-projects.vercel.app/' 
 }));
 
 const port = 8900;

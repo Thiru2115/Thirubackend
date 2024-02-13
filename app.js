@@ -9,9 +9,10 @@ const port = 8900;
 
 // Use CORS middleware to allow requests from your Vercel domain
 app.use(cors({
-  origin: "https://thirufrontend.vercel.app/",
+  origin: "https://thirufrontend.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"], // specify the allowed HTTP methods
 }));
+
 
 app.use(express.json());
 
